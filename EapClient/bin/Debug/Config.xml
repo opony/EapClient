@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <ToolID>EAP1</ToolID>
+  <Host>schoolproject.cloudapp.net:8001</Host>
+  <Freq>1000</Freq>
+  <AutoSendFlag>0</AutoSendFlag>
+</Config>

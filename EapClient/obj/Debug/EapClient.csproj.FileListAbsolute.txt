@@ -1,0 +1,26 @@
+c:\users\pony\documents\visual studio 2013\Projects\EapClient\EapClient\bin\Debug\EapClient.exe.config
+D:\Workspace\Asp_Net\EapClient\EapClient\bin\Debug\EapClient.exe.config
+D:\Workspace\Asp_Net\EapClient\EapClient\bin\Debug\Config.xml
+D:\Workspace\Asp_Net\EapClient\EapClient\bin\Debug\EapClient.exe
+D:\Workspace\Asp_Net\EapClient\EapClient\bin\Debug\EapClient.pdb
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.csprojResolveAssemblyReference.cache
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.Form1.resources
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.Properties.Resources.resources
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.csproj.GenerateResource.Cache
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.exe
+D:\Workspace\Asp_Net\EapClient\EapClient\obj\Debug\EapClient.pdb
+D:\Workspace\Asp_Net\EapClient\EapClient\bin\Debug\Data.txt
+C:\Workspace\Asp.net\EapClient\EapClient\bin\Debug\EapClient.exe.config
+C:\Workspace\Asp.net\EapClient\EapClient\obj\Debug\EapClient.exe
+C:\Workspace\Asp.net\EapClient\EapClient\obj\Debug\EapClient.pdb
+C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\EapClient.exe.config
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.exe
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.pdb
+C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\Config.xml
+C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\Data.txt
+C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\EapClient.exe
+C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\EapClient.pdb
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.Form1.resources
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.Properties.Resources.resources
+C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.csproj.GenerateResource.Cache
