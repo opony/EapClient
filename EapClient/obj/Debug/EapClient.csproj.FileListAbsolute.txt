@@ -20,7 +20,6 @@ C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\Config.xml
 C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\Data.txt
 C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\EapClient.exe
 C:\WorkSpace\Net\EapClient\EapClient\bin\Debug\EapClient.pdb
-C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.csprojResolveAssemblyReference.cache
 C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.Form1.resources
 C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.Properties.Resources.resources
 C:\WorkSpace\Net\EapClient\EapClient\obj\Debug\EapClient.csproj.GenerateResource.Cache

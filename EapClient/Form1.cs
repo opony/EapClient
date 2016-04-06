@@ -15,15 +15,57 @@ namespace EapClient
     public partial class Form1 : Form
     {
         SendDataAgent agent = null;
-
+        //string str = System.Environment.CurrentDirectory;
+        String[] args;
         public Form1()
         {
             InitializeComponent();
         }
 
+        public Form1(String[] args)
+        {
+            
+            InitializeComponent();
+            this.args = args;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadConfig();
+            
+            if (args == null)
+            {
+                LoadConfig();
+            }
+            else 
+            {
+                string[] tokens = args[0].Split(':');
+                hostTxt.Text = tokens[0];
+                portTxt.Text = tokens[1];
+                this.Text = args[1];
+                freqTxt.Text = args[2];
+
+                string str = this.GetType().Assembly.Location;
+                str = str.Substring(0, str.LastIndexOf("\\") + 1);
+                dataTxt.Text = System.IO.File.ReadAllText(str + "Data.txt"); ;
+
+                try
+                {
+                    agent = new SendDataAgent(this.Text, double.Parse(freqTxt.Text));
+                    agent.log = new Log(DisplayLog);
+
+                    agent.Connect(hostTxt.Text, Int32.Parse(portTxt.Text));
+                    ChangeStatus();
+
+                    agent.SetData(dataTxt.Text);
+                    agent.Start();
+                    this.WindowState = FormWindowState.Minimized;
+                }
+                catch (Exception ex)
+                {
+                    DisplayLog("auto send fail.");
+                }
+            }
+            
         }
 
         private void LoadConfig() {
@@ -136,7 +178,8 @@ namespace EapClient
         public void DisplayLog(string log)
         {
             this.logTxt.Text += DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + " - " + log + "\r\n";
-
+            this.logTxt.SelectionStart = this.logTxt.Text.Length;
+            this.logTxt.ScrollToCaret();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -1,0 +1,9 @@
+C:\WorkSpace\Net\EapClient\EapClientManager\bin\Debug\EapClientManager.exe.config
+C:\WorkSpace\Net\EapClient\EapClientManager\bin\Debug\EapClientManager.exe
+C:\WorkSpace\Net\EapClient\EapClientManager\bin\Debug\EapClientManager.pdb
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.Form1.resources
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.Properties.Resources.resources
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.csproj.GenerateResource.Cache
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.exe
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.pdb
+C:\WorkSpace\Net\EapClient\EapClientManager\obj\Debug\EapClientManager.csprojResolveAssemblyReference.cache
